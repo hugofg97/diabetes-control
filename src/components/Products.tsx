@@ -125,7 +125,7 @@ const relatedProducts: Product[] = [
 ]
 
 
-function classNames(...classes) {
+function classNames(...classes:string[]) {
   return classes.filter(Boolean).join(' ')
 }
 type Product = {
@@ -150,7 +150,7 @@ const [product, setProduct] = useState<Product>(relatedProducts[0])
      
           <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
   
-            <div as="div" className="flex flex-col-reverse">
+            <div className="flex flex-col-reverse">
     
               <div  className="aspect-h-1 aspect-w-1 w-full">
         
