@@ -20,7 +20,7 @@ const testimonials = [
     },
     {
       content:
-        'Remédio abençoado por Deus, com ajuda do Diabetes Control uma ferida que levaria a amputação do meu pé foi curada',
+        'Remédio abençoado por Deus, com ajuda da RD Comércio e Serviços Hospitalares, uma ferida que levaria a amputação do meu pé foi curada',
       author: {
         name: 'Carmen Costa',
         role: '',
@@ -31,7 +31,7 @@ const testimonials = [
   [
     {
       content:
-        'Tentei diversos remédios para cicatrizar uma ferida aberta em meu tornozelo, com ajuda do produto Magic Save, em semanas meu tornozelo já estava cicatrizando',
+        'Tentei diversos remédios para cicatrizar uma ferida aberta em meu tornozelo, com ajuda do produto Medic Save, em semanas meu tornozelo já estava cicatrizando',
       author: {
         name: 'Julio Cesar da Silva',
         role: '',
@@ -83,7 +83,7 @@ export function Testimonials() {
             Quem utilizou, recomendou!
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Nossos produtos, vem mudando vidas e provando sua eficácia, veja os comentários de clientes que recomendam o Diabetes Control.
+          Nossos produtos, vem mudando vidas e provando sua eficácia, veja os comentários de clientes que recomendam nossos produtos.
           </p>
         </div>
         <ul

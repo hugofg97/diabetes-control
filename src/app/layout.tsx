@@ -6,8 +6,8 @@ import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Diabetes Control',
-    default: 'Diabetes Control - Proteção e Hidratação garantida para sua pele',
+    template: '%s - RD Comércio e Serviços Hospitalares',
+    default: 'RD Comércio e Serviços Hospitalares - Proteção e Hidratação garantida para sua pele',
   },
   description:
     'Produtos naturais para diabetes testados que mudou e revigorou a saúde e a vida de muitas pessoas',

@@ -6,37 +6,37 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/spray-antisseptico.jpg'
-import screenshotPayroll from '@/images/pomada-magic-save-hidratante.jpg'
-import screenshotReporting from '@/images/pomada-magic-save-protetora.jpg'
-import screenshotVatReturns from '@/images/pomada-magic-save-refrescante.jpg'
+// import backgroundImage from '@/images/background-features.jpg'
+// import screenshotExpenses from '@/images/spray-antisseptico.jpg'
+// import screenshotPayroll from '@/images/pomada-magic-save-hidratante.jpg'
+// import screenshotReporting from '@/images/pomada-magic-save-protetora.jpg'
+// import screenshotVatReturns from '@/images/pomada-magic-save-refrescante.jpg'
 
+import hidratacaoImg from '@/images/hidratacao.jpg'
+import refrescaImg from '@/images/refrescancia.jpeg'
+
+import infeccaoImg from '@/images/infeccao-cutanea.jpg'
+import { Button } from './Button'
 const features = [
   {
     title: 'Hidratação Profunda',
     description:
       "Nossas fórmulas proporcionam uma hidratação profunda, ajudando a prevenir o ressecamento da pele, comum em pessoas com diabetes.",
-    image: screenshotPayroll,
+    image: hidratacaoImg,
   },
   {
     title: 'Ação Antisséptica',
     description:
       "Sua fórmula com cloridrato de polihexametileno-biguanida (PHMB) oferece ação antisséptica, auxiliando na prevenção de infecções cutâneas.",
-    image: screenshotExpenses,
+    image: infeccaoImg,
   },
   {
     title: 'Alívio Refrescante',
     description:
       "Experimente a sensação de alívio refrescante proporcionada, tornando o cuidado da pele uma experiência agradável.",
-    image: screenshotVatReturns,
+    image:refrescaImg,
   },
-  {
-    title: ' Proteção Essencial',
-    description:
-      'Proteja sua pele, mantendo-a saudável e resistente a fatores externos.',
-    image: screenshotReporting,
-  },
+
 ]
 
 export function PrimaryFeatures() {
@@ -65,21 +65,21 @@ export function PrimaryFeatures() {
       aria-label="Features for running your books"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
     >
-      <Image
+      {/* <Image
         className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
         src={backgroundImage}
         alt=""
         width={2245}
         height={1636}
         unoptimized
-      />
+      /> */}
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
           Benefícios de nossos produtos
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-          Descubra por que o Diabetes Control é a escolha preferida de pacientes diabéticos para cuidar da pele
+          Descubra por que os produtos da RD Comércio e Serviços Hospitalares é a escolha preferida de pacientes diabéticos para cuidar da pele
           </p>
         </div>
         <Tab.Group
@@ -128,7 +128,7 @@ export function PrimaryFeatures() {
                   ))}
                 </Tab.List>
               </div>
-              <Tab.Panels className="lg:col-span-7">
+              <Tab.Panels className="">
                 {features.map((feature) => (
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative sm:px-6 lg:hidden">
@@ -137,9 +137,9 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="rounded-lg lg:w-[700px] lg:p-10 mt-20 md:mt-20 p-0">
                       <Image
-                        className="w-full"
+                        className="w-full rounded-md"
                         src={feature.image}
                         alt=""
                         priority
@@ -153,6 +153,21 @@ export function PrimaryFeatures() {
           )}
         </Tab.Group>
       </Container>
+      <div className="mt-10 flex justify-center gap-x-6">
+        <Button href="#produtos">Conferir Produtos</Button>
+        {/* <Button
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          variant="outline"
+        >
+          <svg
+            aria-hidden="true"
+            className="h-3 w-3 flex-none fill-blue-600 group-active:fill-current"
+          >
+            <path d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z" />
+          </svg>
+          <span className="ml-3">Saiba mais</span>
+        </Button> */}
+      </div>
     </section>
   )
 }

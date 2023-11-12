@@ -24,7 +24,7 @@ export function CallToAction() {
             Confira agora todos os produtos
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-           O Diabetes Control se divide em diversos produtos, como cremes, sprays, e muitos mais. Sendo útil assim, para cada necessidade do paciente.
+          Nós da RD Comércio e Serviços Hospitalares  possuímos diversos produtos, como cremes, sprays, e muitos mais. Sendo útil assim, para cada necessidade do paciente.
           </p>
           <Button href="#produtos" color="white" className="mt-10">
             Conferir Produtos

@@ -103,7 +103,7 @@ const features: Array<Feature> = [
   {
     name: 'Ingredientes Naturais',
     summary:
-      'O Diabetes Control também incorpora ingredientes naturais e emolientes.',
+      'Nossos produtos também incorporam ingredientes naturais e emolientes.',
     description:
       'Óleo de girassol, óleo de copaíba, alfa-bisabolol e outros, que atuam como emolientes, proporcionando alívio e conforto à pele irritada.',
     icon: function ContactsIcon() {
@@ -220,10 +220,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-          O que é o Diabetes Control?
+          O que é os produtos da RD Comércio e Serviços Hospitalares oferecem?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-          O Diabetes Control são produtos, ou pacotes de produtos inovadores, desenvolvido para atender às necessidades de pacientes diabéticos. Com uma formulação especializada, oferece cuidados abrangentes para a pele, promovendo hidratação, reparação e proteção. Descubra o segredo para uma pele saudável e confiante com o Diabetes Control.
+          Nossos produtos, ou pacotes de produtos inovadores, foram desenvolvidos para atender às necessidades de pacientes diabéticos ou pacientes com feridas e queimaduras. Com uma formulação especializada, oferece cuidados abrangentes para a pele, promovendo hidratação, reparação e proteção. Descubra o segredo para uma pele saudável.
           </p>
         </div>
         <FeaturesMobile />

@@ -6,53 +6,53 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Qual é a diferença entre a Pomada de Calêndula e o Spray Suavizante de Calêndula?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        ' A Pomada de Calêndula é indicada para peles afetadas por feridas e queimaduras, oferecendo propriedades anti-inflamatórias e cicatrizantes. Por outro lado, o Spray Suavizante de Calêndula é utilizado para a renovação celular da pele, com atributos antibacterianos e anti-inflamatórios, sendo especialmente recomendado para a cicatrização de feridas em pessoas diabéticas.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: ' Como usar o Medic Save - Solução/Spray Higienizante e Antisséptica?',
+      answer: ' Aplique a solução antisséptica utilizando a válvula borrifadora diretamente na pele. Esta solução é eficaz na limpeza da pele, proporcionando ação residual de amplo espectro sobre bactérias como Staphylococcus aureus, Salmonella choleraesuis e Pseudomonas aeruginosa.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Qual é a função do Medic Save - Gelmix/Gel Barreira de Adesão Cellosize?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'O Gelmix é uma solução antisséptica que atua como uma barreira de adesão hidratante para feridas, oferecendo ação antisséptica, antiflogística e emoliente refrescante. Sua composição é eficaz para promover a cicatrização.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Posso usar o Medic Save - Creamgel/Loção Corporal Hidratante para Feridas em qualquer tipo de ferida?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Sim, o Creamgel é indicado para feridas e possui propriedades antissépticas, antiflogísticas e emolientes refrescantes. Pode ser aplicado em diversos tipos de feridas para promover hidratação e auxiliar no processo de cicatrização.        ',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'O Kit SAMULIN é indicado apenas para profissionais da área de saúde?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Embora o Kit SAMULIN contenha uma solução antisséptica, ele pode ser utilizado por qualquer pessoa para a higienização da pele. No entanto, é importante seguir as instruções de uso fornecidas na embalagem.',
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'Qual é a principal função da Pomada de Aloe Vera com D`Pantenol e PHMB?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'A Pomada de Aloe Vera é especialmente formulada para feridas com potencial de infecção, como queimaduras e úlceras. Suas propriedades cicatrizantes ajudam no processo de recuperação da pele.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Os produtos são seguros para pessoas com diabetes?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'Sim, os produtos são desenvolvidos para atender às necessidades específicas de pessoas com diabetes, oferecendo propriedades que auxiliam na cicatrização de feridas e na prevenção de infecções.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Posso utilizar mais de um produto simultaneamente?',
+      answer: ' Sim, é possível combinar diferentes produtos conforme necessário. No entanto, é aconselhável seguir as instruções de uso de cada produto e, se houver dúvidas, consultar um profissional de saúde.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'Existe alguma restrição de uso para gestantes ou lactantes?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        ' Recomenda-se consultar um profissional de saúde antes de usar os produtos durante a gravidez ou amamentação. Embora muitos sejam seguros, é importante garantir que não haja contraindicações específicas para cada caso individual.',
     },
   ],
 ]
@@ -78,11 +78,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Dúvidas Frequentes
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+          Se você não encontrar o que procura, envie um e-mail para nossa equipe de suporte e, se tiver sorte, alguém entrará em contato com você.
           </p>
         </div>
         <ul
